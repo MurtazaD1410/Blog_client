@@ -107,7 +107,7 @@ const UpdateBlog = () => {
               <FileBase64
                 name="photo"
                 multiple={false}
-                onDone={({ base64 }) => { setBlog({ ...blog, photo: base64 }) }} />
+                onDone={({ base64 }) => { setPhotoUrl(base64) }} />
 
               <button className='bg-[#dcdcdc] text-[16px] py-1 px-3 rounded-md font-medium remove' onClick={removePhoto}>Remove Photo</button>
             </div>
