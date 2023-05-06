@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Laila', sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+input[type=file]::file-selector-button {
+  background: #dcdcdc;
+  font-size: 16px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.remove{
+  box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
